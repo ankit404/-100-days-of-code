@@ -1,1 +1,1 @@
-Day 2 #100-days-of-code
+Day 3 #100-days-of-code
