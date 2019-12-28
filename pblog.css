@@ -1,0 +1,13 @@
+img{
+    width:30%;
+    float: left;
+    margin:1.66%;
+}
+p{
+    margin:30px;
+    border-bottom: 2px solid grey;
+    width: 30%;
+    font-size:50px;
+    font-weight:900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
