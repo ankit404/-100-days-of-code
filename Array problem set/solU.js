@@ -1,16 +1,28 @@
 
+console.log("-----printing the reverse of array-----");
+function revArray(arr){
+  for(var i=arr.length-1;i>=0;i--){
+      console.log(arr[i]);
+  }
+}
+revArray([1,2,3,4]);
 
-console.log("%%%%%%%%%%  priting sum of array  %%%%%%%%%");
-var ar=prompt("enter the length of array");
-var arrs=[ar];
-alert("enter array elements to be sumed up");
-while(ar!==0){
-    arrs[ar]=prompt(" ");
-    console.log("array index "+ ar +":"+ " " +arrs[ar]);
-    ar--;
+console.log("--------return true, elements in array identical-----------");
+var k;
+function isUniform(rr){
+    var i,j;
+    i=0;
+    j=rr.length-1;
+    while(k<=rr.length){
+        if(rr[i]===rr[j]){
+            return true;
+        }else{
+            return false;
+        }
+    i++;
+    j--;
+
+    }
+
 }
-var sum=0;
-for(ar=0;ar<arrs.length;ar++){
-sum=sum+arrs[ar];
-}
-console.log("sum of array:" + sum);
+isUniform([1,1,1,1]);
