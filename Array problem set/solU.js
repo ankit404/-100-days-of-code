@@ -6,7 +6,7 @@ function revArray(arr){
 }
 revArray([1,2,3,4]);
 
-console.log("--------return true, elements in array identical-----------");
+console.log("-----return true, elements in array identical-----");
 
 function isUniform(r){
 var first=r[0];
@@ -20,7 +20,7 @@ return true;
 console.log(isUniform([1,2,1,1]));
 
 
-console.log("-------printing sum of an array-------");
+console.log("------printing sum of an array-------");
 var sum=0;
 function sumArray(a){
   for(i=0;i<a.length;i++){
@@ -31,7 +31,7 @@ function sumArray(a){
 sumArray([1,2,3]);
 
 
-console.log("------------finding  max of the numbers-----------");
+console.log("--------finding  max of the numbers------");
 var mx,j;
 function max(b){
     j=b.length-1
@@ -47,3 +47,7 @@ function max(b){
 console.log(mx +" "+"is the maximum number");
 }
 max([1,2,3,4,5]);
+
+
+
+
