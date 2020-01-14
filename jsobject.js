@@ -16,9 +16,11 @@ var movie = [{
     {
         title: "\"Tokyo ghoul\"",
         rating: "3.5 stars",
-        hasWatched: "not seen"
+        hasWatched: "not seen",
+
     }
 ];
+
 
 for (var i = 0; i < movie.length; i++) {
 
