@@ -1,1 +1,1 @@
-Day 21 #100-days-of-code
+Day 22 #100-days-of-code
