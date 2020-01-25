@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>colortoggle</title>
+</head>
+<style type="text/css">
+    .purple {
+        background-color: purple;
+    }
+</style>
+
+<body>
+
+    <button>click me</button>
+
+    <script type="text/javascript">
+        var button = document.querySelector("button");
+        button.addEventListener("click", function() {
+            document.body.classList.toggle("purple");
+        });
+    </script>
+
+
+
+</body>
+
+
+</html>
