@@ -1,0 +1,18 @@
+body{
+    border: 18px solid grey;
+    max-width: 700px;
+    width:80%;
+    padding:20px;
+    margin:20px auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.p1{
+    border-left:6px solid #bdc3c7;padding-left: 5.4px;
+    font-size:2rem;
+}
+.date{
+
+    color:#3498db;
+    letter-spacing:0.09rem;
+}
+

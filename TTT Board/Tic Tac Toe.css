@@ -1,0 +1,25 @@
+table{
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+
+td{
+    
+    padding:50px;
+}
+td:hover{
+    border: 1px solid black;
+}
+
+#le{
+    border-right: 1px solid grey;
+}
+
+#k{
+    border-right: 1px solid grey;
+}
+.he{
+    border-bottom:1px solid grey;
+}

@@ -1,9 +1,9 @@
 body {
-    background-color: #909090;
+    background-color: #232323;
 }
 
 .square {
-    width: 31%;
+    width: 30%;
     background: purple;
     padding-bottom: 30%;
     float: left;
@@ -11,6 +11,21 @@ body {
 }
 
 #container {
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 600px;
+}
+
+h1 {
+    color: white;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.select {
+    background-color: aquamarine;
 }
