@@ -1,2 +1,2 @@
 # -100-days-of-code
-Just my 100 days of code journey
+My 100 days of coding journey😊
