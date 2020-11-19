@@ -1,0 +1,47 @@
+.nav-wrapper {
+    background-color: #6f4036;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #6f4036;
+}
+
+.upank {
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.parallax-container {
+    min-height: 280px;
+    height: auto;
+}
+
+.icon-coffee {
+    color: #6f4036;
+}
+
+.footer-one {
+    background: #6f4036;
+}
+
+.footer-two {
+    background: #472922;
+}
+
+@media (max-width: 992px) {
+    .nav-wrapper>a:hover {
+        color: black;
+    }
+    .carousel {
+        height: 150px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-wrapper>a {
+        padding-left: 35px;
+    }
+    .caption {
+        margin-top: 50px !important;
+    }
+}
